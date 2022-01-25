@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    user-select: none;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background: #1A1A1A;
+    background-color: black;
+    background: url(./Frame\ 3.png);
+    /* background-size: 1510px; */
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 50px;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 50px;;
+}
+
+
+main{
+    background: linear-gradient(156.64deg, rgba(255, 255, 255, 0.15) 0%, rgba(196, 196, 196, 0) 100%);
+    -webkit-backdrop-filter: blur(23px);
+    backdrop-filter: blur(23px);
+    border-radius: 6px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 35px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+main div{
+    margin-bottom: 40px;
+}
+
+.text-one{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.dollarsign{
+    display: inline;
+    font-size: 25px;
+    padding-right: 12px;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+input{
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    height: 25px;
+    width: 180px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: rgb(187, 187, 187);
+}
+
+select{
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: rgb(190, 190, 190);
+    appearance: none;
+}
+
+.q3 input{
+    display: inline;
+    width: 100px;
+    color: rgb(141, 141, 141);
+}
+
+.text-people{
+    padding-left: 12px;;
+    display: inline;
+}
+
+.button{
+    align-self: center;
+    border: 1px solid white;
+    color: white;
+    padding: 14px 33px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.q4{
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.ans{
+    color: yellow;
+}

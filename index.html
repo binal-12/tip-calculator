@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" conctent="#1a1a1a">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <h1 class="logo">TipPed.</h1>
+    <main id="main">
+        <div class="q1">
+            <h2 class="text-one">How much was your bill?</h2>
+            <h3 class="dollarsign">$</h3>
+            <input type="number" id="billAmount" class="input" placeholder="Bil Amount" required>
+        </div>
+        <div class="q2">
+            <h2 class="text-one">How was your service? </h2>
+            <select id="select" required >
+                <option value="0" selected disabled>--Choose a option --</option>
+                <option value="18">18% Excellent</option>
+                <option value="12">12% Good</option>
+                <option value="8">8% Decent</option>
+                <option value="5">5% Bad</option>
+            </select>
+        </div>
+        <div class="q3">
+            <h2 class="text-one">How many people are<br> sharing the bill?</h2>
+            <input type="number" id="numsOfPeople" value="1" required>
+            <h3 class="text-people">people</h3>
+        </div>
+        <div class="button">
+            <h2 class="calc">Calculate!</h2>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
