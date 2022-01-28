@@ -21,7 +21,8 @@ function submit(){
         
         var answer = document.createElement("div")
         answer.className = "q4"
-        answer.innerHTML =  `<h2 class="text-one">Your Tip share is <span class="ans">$${ans}</span>.</h2>`
+        answer.innerHTML =  `<h2 class="text-one">Your Tip share is <span class="ans">$${ans}</span>.</h2>
+        <h2 class="text-one">Your Bill share is <span class="ans">$${Number(ans) + Number((q1.value*1.0)/q3.value)}</span>.</h2>`
         main.append(answer);
     } else {
         calc.children[0].textContent = "Calculate!"
